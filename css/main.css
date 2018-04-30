@@ -2,12 +2,19 @@
  * CSS written here will override Tachyons
  * ======================================== */
 
-body {
-  font-family: "Proxima Nova";
-  margin: 0px;
+p {
+  font-family: "Proxima Nova", sans-serif;
+}
+.nova {
+  font-family: "Proxima Nova", sans-serif;
+}
+.f1 {
+  font-family: "graphik";
+  font-weight: 500;
 }
 img {
   object-fit: cover;
+  image-orientation: from-image;
 }
 .redd {
   background-color: #71031a;
@@ -20,18 +27,25 @@ img {
   background-color: #FFB1BE;
 }
 .t1 {
-  font-family: filson-soft, sans-serif;
+  font-family: "filson-soft", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 80px;
 }
-a {
+/* Link Styles */
+.main {
   text-decoration: none;
   color: white;
-  font-family: filson-soft, sans-serif;
+  font-family: "filson-soft", sans-serif;
 }
-a:hover {
-  text-decoration: underline;
+.main:hover {
+  font-style: italic;
+}
+.oppo {
+  text-decoration: none;
+}
+.oppo:hover{
+  font-style: italic;
 }
 .container {
   display: flex;
