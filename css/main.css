@@ -1,0 +1,55 @@
+/* ========================================
+ * CSS written here will override Tachyons
+ * ======================================== */
+
+body {
+  font-family: "Proxima Nova";
+  margin: 0px;
+}
+img {
+  object-fit: cover;
+}
+.redd {
+  background-color: #71031a;
+  color: white;
+}
+.pinkk {
+  background-color: #fe3944;
+}
+.redu {
+  background-color: #FFB1BE;
+}
+.t1 {
+  font-family: filson-soft, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 80px;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-family: filson-soft, sans-serif;
+}
+a:hover {
+  text-decoration: underline;
+}
+.container {
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+}
+.top {
+  align-self: flex-start;
+  position: absolute;
+  left: 50%;
+}
+.mid {
+  align-self: center;
+  position: absolute;
+  left: 25%;
+}
+.btm {
+  align-self: flex-end;
+  position: absolute;
+  right: 36.8%;
+}
