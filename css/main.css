@@ -47,6 +47,17 @@ img {
 .oppo:hover{
   font-style: italic;
 }
+.item {
+  content: '\ chĕn-mā \ ';
+}
+.item:hover {
+  display: none;
+}
+.item:hover:after {
+  content: 'Qian Mei';
+}
+
+/* Other Stuff */
 .container {
   display: flex;
   align-items: flex-start;
@@ -66,4 +77,14 @@ img {
   align-self: flex-end;
   position: absolute;
   right: 36.8%;
+}
+
+/* QM Page */
+.outer {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  display: inline-block;
+}
+.inner {
+  width: 10000px;
 }
